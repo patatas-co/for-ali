@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Letter 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Front Page -->
+    <div class="front-page" id="frontPage">
+        <div class="christmas-tree">☃️</div>
+        <h1 class="front-title">Merry Christmas</h1>
+        <p class="front-subtitle">My baby!</p>
+        <button class="open-letter-btn" onclick="openLetter()">Open Letter</button>
+    </div>
+
+    <!-- Letter Page -->
+    <div class="letter-page" id="letterPage">
+        <button class="back-btn" onclick="goBack()">Back</button>
+        
+        <div class="container">
+            <div class="header">
+                <h1>For yours to read</h1>
+                <p>my baby ali!</p>
+            </div>
+
+            <div class="letter-content">
+                <p>To my Dearest, Ali</p>
+                
+                <p>Merry Christmas, Ali! When I first met you and the first time we talked to each other, I knew na magiging masaya ako with you, though maraming challenges tayo na kinakaharap ngayon, pero I hope we won't give up on each other. Thank you sa mga araw na napapangiti mo ako kapag wala ako sa mood, sa mga araw na and'yan ka kapag wala akong napapagsabihan ng mga gusto ko sabihin. Salamat kase napapatahimik mo yung maingay kong isip. </p>
+                
+                <p>This holiday season reminds me of how thankful I am kase and'yan ka lalo na last December. Thank you for making me experience lahat ng "first" ko with you. You will always be included in my prayers. </p>
+            </div>
+
+            <div class="letter-content">
+                <p>Wishing you a Christmas that's full of joy, love, and laughter. I love you, ali!</p>
+            </div>
+
+        </div>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="./assets/song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button class="music-toggle" onclick="toggleMusic()" id="musicBtn">
+        <span class="music-icon">🔇</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
